@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a879</color>
+    <color name="colorPrimaryDark">#00a879</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="userNameColor">#000000</color>
+    <color name="userCategoryColor">#B5B7B9</color>
+    <color name="deleteButtonColor">#F35F5F</color>
+</resources>

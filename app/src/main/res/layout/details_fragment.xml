@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macbook.androidapp.fragments.ContactsInfo"
+    android:id="@+id/details_layout"
+    android:fitsSystemWindows="true">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/info_edit_bar"
+        android:paddingBottom="8dp">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/user_info_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Alexandra Loren"
+                android:textSize="19sp"
+                android:textColor="@color/userNameColor"
+                android:id="@+id/user_info_name"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:layout_width="65dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/myeditbutton"
+                    android:text="Edit"
+                    android:layout_gravity="center"
+                    android:textColor="@color/titleColor"
+                    android:id="@+id/contact_info_edit_button"
+                    android:layout_marginRight="7dp"
+                    />
+
+                <Button
+                    android:layout_width="72dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/mydeletebutton"
+                    android:text="Delete"
+                    android:layout_gravity="center"
+                    android:textColor="@color/titleColor"
+                    android:id="@+id/contact_info_delete_button"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/user_info_social_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="7dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="0.3dp"
+        android:layout_width="match_parent"
+        android:background="#B5B7B9"
+        android:layout_below="@+id/info_edit_bar"
+        android:id="@+id/info_edit_bar_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/info_edit_bar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Products:"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/products"/>
+
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/products_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name:"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/full_name"/>
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/full_name_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country:"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/country"/>
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/country_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Associated Email:"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/associated_email"/>
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/associated_email_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Life Time Value:"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/life_time_value"/>
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/life_time_value_view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Seen"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/first_seen"/>
+        <View
+            android:layout_height="0.3dp"
+            android:layout_width="match_parent"
+            android:background="#B5B7B9"
+            android:id="@+id/first_seen_view"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

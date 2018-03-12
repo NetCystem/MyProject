@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Android App</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="category_of_user">Category Of User:</string>
+</resources>
